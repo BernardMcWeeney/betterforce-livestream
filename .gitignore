@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# If using SQLite3 database, ignore the database file
+db.sqlite3
+
+# Ignore the secret key file (if you have one)
+secret_key.txt
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.log
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Static and media files (if not stored in version control)
+staticfiles/
+media/
+
+# Local environment settings (if you have them)
+.env
+
+# Node.js stuff
+node_modules/
+
+# Ignore gunicorn socket file
+*.sock
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore temporary files created by editors
+*~
